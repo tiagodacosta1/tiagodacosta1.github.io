@@ -1,0 +1,42 @@
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project-card .project-description {
+    display: none;
+  }
+  
+  .project-card .btn-read-more {
+    margin-top: 10px;
+  }
+  
+  /* Media queries for responsive design */
+  
+  @media screen and (max-width: 768px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .project-card {
+      margin: 10px 0;
+    }
+  }
+  
