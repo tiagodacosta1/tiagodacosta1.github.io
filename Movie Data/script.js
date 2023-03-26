@@ -1,4 +1,4 @@
-// movies.js
+
 let movieData = {
   "The Darjeeling Limited": {
     plot: "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.",
@@ -36,7 +36,7 @@ let movieData = {
 };
 
 // Select the movies div
-const moviesDiv = document.querySelector("#movies");
+const moviesDiv = document.querySelector("#moviesDiv");
 
 // Render the movie data onto the webpage
 function renderMovies() {
