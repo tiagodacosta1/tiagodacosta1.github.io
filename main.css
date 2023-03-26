@@ -1,0 +1,231 @@
+html,
+body {
+  margin: 0;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.header-info{
+  margin: 0 auto;
+}
+
+#header-scroll {
+  background-color: #17191e;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+}
+
+.centre {
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+#site-title-header {
+  float: left;
+  color: #fafafa;
+  font-size: 1em;
+  line-height: 2;
+  display: inline-block;
+}
+
+#site-byline-header {
+  float: right;
+  display: inline-block;
+  color: #fafafa;
+  font-size: 1em;
+  line-height: 2;
+  margin: 0 auto;
+  font-weight: 300;
+  padding: 0 16px 0 16px;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+#header-container-img {
+  width: 100%;
+  height: 70%;
+  background-image: url("tc\ v\ 1.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 1000px 110px rgba(0, 0, 0, 0.5);
+}
+
+#initial-info {
+  padding-top: 30vh;
+}
+
+.site-title,
+#site-subtitle {
+  color: #fafafa;
+  font-size: 3.5em;
+  margin: 0 auto;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.2;
+  padding: 0 16px 0 16px;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+#site-subtitle {
+  font-size: 2.5em;
+  margin-bottom: 2vh;
+}
+
+#personal-website-link {
+  color: #fafafa;
+}
+
+.seperator {
+  display: inline-block;
+  background-color: #fafafa;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  align-self: center;
+  vertical-align: middle;
+  margin: 0 10px 0 10px;
+}
+
+#site-byline {
+  color: #fafafa;
+  font-size: 1.1em;
+  margin: 0 auto;
+  font-weight: 300;
+  padding: 0 16px 0 16px;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.name{
+  display: inline-block;
+}
+
+.ordinal-date {
+  display: inline-block;
+  font-variant-numeric: ordn;
+}
+
+.site-share {
+  margin: 16px;
+}
+
+.container-paragraph {
+  margin: 16px;
+  margin-top: 0px;
+  line-height: 1.9;
+}
+
+#first-container-paragraph {
+  margin-top: 16px
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  background-color: #e8e6e6;
+  padding: 8px 16px 8px 16px;
+}
+
+.site-subheading {
+  font-size: 3em;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 64px 16px 16px 16px;
+}
+
+.background-container-img {
+  width: 100%;
+  height: 50%;
+  background-image: url("cover-two.png");
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0px 1000px 110px rgba(0, 0, 0, 0.5);
+}
+
+.background-footer-img {
+  margin-top: 7vh;
+  width: 100%;
+  height: 70%;
+  background-image: url("tc\ v\ 2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0px 1000px 110px rgba(0, 0, 0, 0.5);
+  background-position-y: 100px;
+}
+
+#cover-two {
+  margin-top: 10vh;
+}
+
+iframe {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .container,
+  .centre, .header-info {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 600px) {
+  #site-byline-header {
+  }
+
+  #site-title-header{
+    margin-left: 10px;
+  }
+
+  #initial-info {
+    padding-top: 5vh;
+  }
+
+  #header-container-img {
+    height: 60%;
+  }
+
+  .site-title {
+    font-size: 3em;
+  }
+
+  #site-subtitle {
+    font-size: 2em;
+  }
+
+  .background-container-img {
+    width: 100%;
+    height: 30%;
+    background-image: url("cover-two.png");
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 1000px 110px rgba(0, 0, 0, 0.5);
+  }
+
+  #cover-two {
+    background-position: 1070px;
+  }
+
+  .background-footer-img {
+    height: 60%;
+    background-position-x: -200px;
+    background-position-y: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  iframe {
+    /* width: 100px; */
+  }
+}
