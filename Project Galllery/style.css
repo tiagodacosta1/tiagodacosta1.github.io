@@ -1,3 +1,20 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E5E8B6;
+}
+
+.porject-image {
+  width: 150px;
+  text-align: center;
+  display: inline;
+}
+
+.porject-image img{
+  width: 100%;
+  height: 100%;
+  
+}
+
 .project-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +27,18 @@
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+    background-color: #A2ABAB;
+    border-radius: 20px;
+    border: 5px solid #586994;
+  }
+
+  h3, .project-description, a{
+    background-color: transparent;
+  }
+
+  a{
+    color: #ddd;
+    text-decoration: none;
   }
   
   .project-card img {
@@ -24,6 +53,27 @@
   
   .project-card .btn-read-more {
     margin-top: 10px;
+  }
+
+  .btn-read-more{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+
+  .btn-read-more, .open-link{
+    background-color: #BA274A;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    color: #ddd;
+    
+  }
+
+  .btn-read-more:hover{
+    cursor: pointer;
   }
   
   /* Media queries for responsive design */

@@ -1,0 +1,126 @@
+
+<html lang="en">
+    <head>
+        <title>Website Project - Tiago Costa</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <meta name="x-country" content="gb">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="main.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,700;1,900&family=Roboto+Slab:wght@100;400;600;700;900&display=swap" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <div id="header-scroll">
+            
+            <div class="centre">
+                <div id="site-title-header">Website Project - About</div>
+
+                <div id="site-byline-header">
+                        <div class="name">Tiago Costa</div> 
+                        <div class="seperator"></div>
+                        26<div class="ordinal-date">th</div>March 2023
+                </div>
+            </div>
+        </div>
+   
+        <div id="header-container-img">
+            
+            <div class="header-info" id="initial-info">
+            
+                <div class="site-title">Website Project - About</div>
+                <div id="site-subtitle">Founders And Coders Website Project</div>
+
+                <div id="site-byline">
+                    Tiago Costa
+                    <div class="seperator"></div>
+                    26<div class="ordinal-date">th</div> March 2023
+                </div>
+                
+                <div class="site-share">
+                    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        <a class="a2a_button_facebook"></a>
+                        <a class="a2a_button_twitter"></a>
+                        <a class="a2a_button_email"></a>
+                        <a class="a2a_button_linkedin"></a>
+                    </div>
+                    <script async src="https://static.addtoany.com/menu/page.js"></script>
+                </div>
+                
+            </div>
+        
+        </div>
+        
+        <div class="container">
+
+            <p class="container-paragraph" id="first-container-paragraph">
+                Thank you for taking the time to visit my website. My name is Tiago Costa, and I'm excited to explain why I'm applying to this coding boot camp.
+            </p>
+
+            <p class="container-paragraph" id="first-container-paragraph">
+                These links will take you to my deployed projects, allowing you to see my progress throughout the application development process.
+            </p>
+
+            <h3>My Projects</h3>
+            <ul class="project-links">
+                <li> <a href="https://github.com/tiagodacosta1/foundersAndCodersRep/commit/62b6504196e030f2e28061740426f1491d593bec">Hobby page</a></li>
+                <li> <a href="https://github.com/tiagodacosta1/foundersAndCodersRep/tree/main/Project%20Galllery">Project Gallery</a></li>
+                <li> <a href="https://github.com/tiagodacosta1/foundersAndCodersRep/tree/main/Movie%20Data">Movie Data</a></li>
+                <li> <a href="">Website</a></li>
+                <li> <a href="https://github.com/tiagodacosta1/foundersAndCodersRep/tree/main/Matching%20Game">Game</a></li>
+            </ul>
+            
+            <p class="container-paragraph">
+                Although I'm a classically trained pianist and violinist, I've recently discovered a new passion: coding! For the past 12 years, I've been dedicated to perfecting my technique and pedagogy in these beautiful instruments. However, I find the world of programming just as intellectually stimulating as playing music.        
+            </p>
+                    
+            <p class="container-paragraph">
+                My drive to learn allowed me to attend the top music university in the UK. However, I'm eager to apply the same determination to exploring the world of programming and coding. I'm tired of being in the spotlight, taking beta blockers to perform in competitions and earning only $3k as a prizewinner for six months of work. I love music and want to use my skills and drive to code, to help people succeed backstage. My goal is to use my coding skills to benefit the music industry and eventually expand my knowledge to other industries. I've already started coding websites for musicians and music schools, but I'm eager to deepen my knowledge.
+            </p>
+
+            <div style="width: 100%; height: 400px;">
+                <iframe src="tc v.mp4" width="100%" height="100%"></iframe>
+            </div>
+        
+        </div>
+        
+        <div class="container">
+                
+             <p class="container-paragraph" id="first-container-paragraph">
+                I'm passionate about learning, and I've structured my life in a way that allows me to teach part-time while also sustaining myself as I learn to code. I'm confident that coding is both lucrative and incredibly fulfilling intellectually.
+            </p>
+            
+            <p class="container-paragraph">
+                Thank you for considering my application to Founders and Coders. I'm excited to take this next step in my career and look forward to using my skills to help others succeed.           
+            </p>
+            
+        </div>
+        
+        <div class="background-footer-img"></div>
+        
+        <script>
+            
+            $('#header-scroll').hide();
+            
+            $(document).scroll(function () {
+                var scrollPosition = $(this).scrollTop();
+                if (scrollPosition > 300) {
+                    $('#header-scroll').fadeIn();
+                } else {
+                    $('#header-scroll').fadeOut();
+                }
+
+            });
+        
+        </script>
+
+    </body>
+    
+</html>
